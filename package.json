@@ -13,8 +13,8 @@
     "serve": "^11.3.0"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build && npm run-script --openssl-legacy-provider sw",
+    "start": "HTTPS=true react-scripts start",
+    "build": "react-scripts build",
     "sw": "cat src/sw.js >> build/service-worker.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
