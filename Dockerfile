@@ -21,4 +21,5 @@ RUN npm run build
 EXPOSE 3000
 
 # Define the command to run the application
-CMD ["serve", "-s", "build", "--ssl-cert", "'/app/.cert/cert.pem'", "--ssl-key", "'/app/.cert/cert-key.pem'"]
+CMD ["serve", "-s", "build", "--ssl-cert", "'cert/cert.pem'", "--ssl-key", "'cert/cert-key.pem'"]
+# CMD ["npm", "start"]
