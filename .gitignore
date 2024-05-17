@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+.pem
+
 # production
 # /build
 
@@ -25,3 +27,4 @@ yarn-error.log*
 .firebaserc
 firebase.json
 .firebase
+
